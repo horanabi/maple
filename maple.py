@@ -5,14 +5,14 @@ import datetime
 import random
 
 
-api_key = "live_50138df357699939f3b790093592e8e075fc0519e008653d27fc175e2dc9da5ad961e05fef3f2d19e258e30bf46403b6"
+api_key = "test_1c7f50637c55961a99c6ea04b154a42dd15f29e400fdba3541772fdf463bf19672748534a913f2e3b45cdd48215fc154"
 header = {'x-nxopen-api-key': api_key}
 
 
 def main():
     st.set_page_config(
-        page_title="Use Wook`s maplestory",
-        page_icon="👍"
+        page_title="메이플스토리 유저 정보 조회 시스템",
+        page_icon="🍞"
     )
 
     st.header("각종 메이플 정보 검색 공간입니다.")
