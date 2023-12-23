@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit as st
 import datetime
 
-key = "live_50138df357699939f3b790093592e8e075fc0519e008653d27fc175e2dc9da5ad961e05fef3f2d19e258e30bf46403b"
+key = "test_1c7f50637c55961a99c6ea04b154a42dd15f29e400fdba3541772fdf463bf19672748534a913f2e3b45cdd48215fc154"
 
 def get_cube_history(api_key, date):
     date_str = date.strftime("%Y%m%d")
