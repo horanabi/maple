@@ -82,8 +82,8 @@ def display_potential_options(selected_characters_df):
 
 def main():
     st.set_page_config(
-        page_title="Use Wook`s maplestory",
-        page_icon="👍"
+        page_title="메이플 유저 조회 시스템",
+        page_icon="🍞"
     )
 
     st.header("일단 openapi.nexon.com에 가서 Api 키를 발급 받아야 합니다.")
